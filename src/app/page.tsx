@@ -13,17 +13,17 @@ export default function Home() {
                 <p className="text-[#00000061] mt-[32px]">Browse through our diverse range of meticulously crafted garments, designed <br /> to bring out your individuality and cater to your sense of style.</p>
                 <button className="mt-[32px] btn w-[210px] h-[52px] bg-[#000000] text-white rounded-[62px]">Shop Now</button>
                 <div className="mt-[40px] stats stats-vertical max-w-[650px] h-[100px] lg:stats-horizontal shadow">
-                  <div className="stat">
+                  <div className="stat bg-[#fff]">
                     <div className="stat-value">200+</div>
                     <div className="stat-title">International Brands</div>
                   </div>
 
-                  <div className="stat">
+                  <div className="stat bg-[#fff]">
                     <div className="stat-value">2,000+</div>
                     <div className="stat-title">High-Quality Products</div>
                   </div>
 
-                  <div className="stat">
+                  <div className="stat bg-[#fff]">
                     <div className="stat-value">30,000+</div>
                     <div className="stat-title">Happy Customers</div>
                   </div>
