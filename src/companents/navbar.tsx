@@ -27,9 +27,9 @@ export default function Navbar() {
             width={160}
             height={22}
           />
-          <div className="navbar-center hidden lg:flex">
+          <div className="navbar-center text-black hidden lg:flex">
             <ul className="menu flex menu-horizontal px-1">
-              <li>
+              <li className="cursor-pointer">
                 <details>
                   <summary>Shop</summary>
                   <ul className="p-2">
@@ -38,9 +38,9 @@ export default function Navbar() {
                   </ul>
                 </details>
               </li>
-              <li><a>On Sale</a></li>
-              <li><a>New Arrivals</a></li>
-              <li><a>Brands</a></li>
+              <li className="cursor-pointer"><a>On Sale</a></li>
+              <li className="cursor-pointer"><a>New Arrivals</a></li>
+              <li className="cursor-pointer"><a>Brands</a></li>
             </ul>
           </div>
           <form className="w-[577px] rounded-[62px] h-[48px] bg-[#F0F0F0]">
