@@ -9,7 +9,7 @@ export default function Home() {
           <div className="pt-[70px]">
             <div className="flex justify-between pr-[85px]">
               <div className="flex flex-col pt-[15px]">
-                <h1 className="font-bold text-[64px] tracking-[-3px] leading-[68px]">FIND CLOTHES <br /> THAT MATCHES <br /> YOUR STYLE</h1>
+                <h1 className="font-bold text-[64px] text-black tracking-[-3px] leading-[68px]">FIND CLOTHES <br /> THAT MATCHES <br /> YOUR STYLE</h1>
                 <p className="text-[#00000061] mt-[32px]">Browse through our diverse range of meticulously crafted garments, designed <br /> to bring out your individuality and cater to your sense of style.</p>
                 <button className="mt-[32px] btn w-[210px] h-[52px] bg-[#000000] text-white rounded-[62px]">Shop Now</button>
                 <div className="mt-[40px] stats stats-vertical max-w-[650px] h-[100px] lg:stats-horizontal shadow">
