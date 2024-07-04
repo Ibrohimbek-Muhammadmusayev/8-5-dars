@@ -28,7 +28,7 @@ export default function Navbar() {
             height={22}
           />
           <div className="navbar-center text-black hidden lg:flex">
-            <ul className="menu flex menu-horizontal px-1">
+            <ul className="menu flex gap-[30px] menu-horizontal px-1">
               <li className="cursor-pointer">
                 <details>
                   <summary>Shop</summary>
